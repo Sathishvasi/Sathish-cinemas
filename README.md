@@ -33,11 +33,11 @@ FUNCTIONALITIES:
 ![capture2](https://user-images.githubusercontent.com/19771986/48548794-e2871280-e8f3-11e8-9d2d-cdd646ebfe8a.PNG)
 
 3. ADD NEW MOVIE:
-![capture4](https://user-images.githubusercontent.com/19771986/48548786-e155e580-e8f3-11e8-8a4e-81eadb80e814.PNG)
+![capture3](https://user-images.githubusercontent.com/19771986/48548783-e155e580-e8f3-11e8-93a7-87269ed492b5.PNG)
 
 4. ADDED VALUE DISPLAYED IN TABLE:
-![capture3](https://user-images.githubusercontent.com/19771986/48548783-e155e580-e8f3-11e8-93a7-87269ed492b5.PNG)
-  
+![capture4](https://user-images.githubusercontent.com/19771986/48548786-e155e580-e8f3-11e8-8a4e-81eadb80e814.PNG)
+
 5. By clicking EXPORT AS EXCEL, downloaded table records:
 ![capture5](https://user-images.githubusercontent.com/19771986/48548787-e1ee7c00-e8f3-11e8-8fde-28deba387135.PNG)
 
