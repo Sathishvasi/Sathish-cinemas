@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sathish cinemas</title>
+
+    <link rel="icon" href="assets/logo.png" type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.16/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css">
+</head>
+
+<body>
+
+    <h1 class="t-title text-center">Sathish cinemas</h1>
+
+    <div class="data-table-container">
+        <table id="example" class="table table-striped table-bordered dt-responsive" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th class="code">Movie name</th>
+                    <th class="acc-num">Release Date</th>
+                    <th class="acc-desc">Genre</th>
+                    <th class="sec-num">Running Duration</th>
+                    <th class="trade-date">Language</th>
+                    <th class="settle-date">IMDB Rating</th>
+                    <th class="status">Status</th>
+                </tr>
+            </thead>
+            <tbody class="append-row">
+                <tr id="row1">
+                    <td><input type="text" name="data1" id="data1" value="Kaala" onblur="saveData(this,event)"><span
+                            style="display:none">Kaala</span></td>
+                    <td><input type="text" name="data2" id="data2" value="07-07-2018" onblur="saveData(this,event)"><span
+                            style="display:none">07-07-2018</span></td>
+                    <td><input type="text" name="data3" id="data3" value="Political Drama" onblur="saveData(this,event)"><span
+                            style="display:none">Political Drama</span></td>
+                    <td><input type="text" name="data4" id="data4" value="3h 5min" onblur="saveData(this,event)"><span
+                            style="display:none">3h 5min</span></td>
+                    <td><input type="text" name="data5" id="data5" value="Tamil" onblur="saveData(this,event)"><span
+                            style="display:none">Tamil</span>
+                    </td>
+                    <td><input type="text" name="data5" id="data6" value="7/10" onblur="saveData(this,event)"><span
+                            style="display:none">7/10</span>
+                    </td>
+                    <td><input type="text" name="data5" id="data6" value="Success" onblur="saveData(this,event)"><span
+                            style="display:none">Success</span>
+                    </td>
+                </tr>
+                <tr id="row2">
+                    <td><input type="text" name="data1" id="data1" value="Sarkar" onblur="saveData(this,event)"><span
+                            style="display:none">Sarkar</span></td>
+                    <td><input type="text" name="data2" id="data2" value="07-11-2018" onblur="saveData(this,event)"><span
+                            style="display:none">07-11-2018</span></td>
+                    <td><input type="text" name="data3" id="data3" value="Action" onblur="saveData(this,event)"><span
+                            style="display:none">Action</span></td>
+                    <td><input type="text" name="data4" id="data4" value="2h 44m" onblur="saveData(this,event)"><span
+                            style="display:none">2h 44m</span></td>
+                    <td><input type="text" name="data5" id="data5" value="Tamil" onblur="saveData(this,event)"><span
+                            style="display:none">Tamil</span>
+                    </td>
+                    <td><input type="text" name="data5" id="data6" value="8/10" onblur="saveData(this,event)"><span
+                            style="display:none">8/10</span>
+                    </td>
+                    <td><input type="text" name="data5" id="data6" value="Running" onblur="saveData(this,event)"><span
+                            style="display:none">Running</span>
+                    </td>
+                </tr>
+                <tr id="row3">
+                        <td><input type="text" name="data1" id="data1" value="Arjun Reddy" onblur="saveData(this,event)"><span
+                                style="display:none">Arjun Reddy</span></td>
+                        <td><input type="text" name="data2" id="data2" value="25-08-2017" onblur="saveData(this,event)"><span
+                                style="display:none">25-08-2017</span></td>
+                        <td><input type="text" name="data3" id="data3" value="Action" onblur="saveData(this,event)"><span
+                                style="display:none">Romance Action</span></td>
+                        <td><input type="text" name="data4" id="data4" value="3h 6m" onblur="saveData(this,event)"><span
+                                style="display:none">3h 6m</span></td>
+                        <td><input type="text" name="data5" id="data5" value="Telugu" onblur="saveData(this,event)"><span
+                                style="display:none">Telugu</span>
+                        </td>
+                        <td><input type="text" name="data5" id="data6" value="8.5/10" onblur="saveData(this,event)"><span
+                                style="display:none">8.5/10</span>
+                        </td>
+                        <td><input type="text" name="data5" id="data6" value="Running" onblur="saveData(this,event)"><span
+                                style="display:none">Success</span>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Add New Movie</h4>
+                </div>
+                <div class="modal-body">
+                    <span class="fill-field">Fill all the fields</span>
+                    <div class="field-name">Movie Name:</div>
+                    <input type="text" class="form-control security field-input" />
+
+                    <div class="field-name">Release Date:</div>
+                    <input type="text" class="form-control field-input security-desc" />
+
+                    <div class="field-name">Genre:</div>
+                    <input type="text" class="form-control field-input t-value" />
+
+                    <div class="field-name">Running Duration:</div>
+                    <input type="text" class="form-control field-input threshold" />
+
+                    <div class="field-name">Language:</div>
+                    <input type="text" class="form-control field-input alert-r" />
+
+                    <div class="field-name">IMDB Rating:</div>
+                    <input type="text" class="form-control field-input alert-s" />
+
+                    <div class="field-name">Status:</div>
+                    <input type="text" class="form-control field-input movie-status" />
+                </div>
+                <div class="modal-footer">
+                    <button class="add-all-records add-record">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.16/datatables.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.18/pdfmake.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.4/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.4/js/buttons.bootstrap.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.4/js/buttons.html5.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.4/js/buttons.print.js"></script>
+    <script src="https://cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js"></script>
+</body>
+
+</html>
