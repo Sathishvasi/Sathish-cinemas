@@ -26,17 +26,24 @@ FUNCTIONALITIES:
   
   ***SCREENSHOTS***
   
-  INITIAL DATA IN PAGE:
+1. INITIAL DATA IN PAGE:
+![capture3](https://user-images.githubusercontent.com/19771986/48548783-e155e580-e8f3-11e8-93a7-87269ed492b5.PNG)
   
-  FILTER DATA IN SEARCH BAR:
+2. FILTER DATA IN SEARCH BAR:
+![capture4](https://user-images.githubusercontent.com/19771986/48548786-e155e580-e8f3-11e8-8a4e-81eadb80e814.PNG)
   
-  ADD NEW MOVIE:
+3. ADD NEW MOVIE:
+![capture5](https://user-images.githubusercontent.com/19771986/48548787-e1ee7c00-e8f3-11e8-8fde-28deba387135.PNG)
   
-  ADDED VALUE DISPLAYED IN TABLE:
+4. ADDED VALUE DISPLAYED IN TABLE:
+![capture6](https://user-images.githubusercontent.com/19771986/48548788-e1ee7c00-e8f3-11e8-9c1e-3cdfe4a5a1ae.PNG)
   
-  By clicking EXPORT AS EXCEL, downloaded table records:
+5. By clicking EXPORT AS EXCEL, downloaded table records:
+![capture7](https://user-images.githubusercontent.com/19771986/48548790-e2871280-e8f3-11e8-9c81-7582f086b6ee.PNG)
   
-  Editing Avengers infinity war "GENRE" in table
+6. Editing Avengers infinity war "GENRE" in table
+![capture1](https://user-images.githubusercontent.com/19771986/48548792-e2871280-e8f3-11e8-97dd-c1b75be88e8c.PNG)
   
-  After editing, here is the downloaded file
+7. After editing, here is the downloaded file
+![capture2](https://user-images.githubusercontent.com/19771986/48548794-e2871280-e8f3-11e8-9d2d-cdd646ebfe8a.PNG)
   
