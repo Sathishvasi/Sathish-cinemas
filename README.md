@@ -21,6 +21,8 @@ FUNCTIONALITIES:
   
   * We can sort the seperate columns
   
+  * datatable.responsive plugin used to display the table in responsive mode
+  
   * Finally we can download all table records in excel file format by clicking "Export as Excel" button
   
   
@@ -46,5 +48,9 @@ FUNCTIONALITIES:
   
 7. After editing, here is the downloaded file
 ![capture7](https://user-images.githubusercontent.com/19771986/48548790-e2871280-e8f3-11e8-9c81-7582f086b6ee.PNG)
+
+8. Table in Responsive mode
+![capture](https://user-images.githubusercontent.com/19771986/48598740-5ffd6200-e98a-11e8-8fda-c758e6363922.PNG)
+
 
   
