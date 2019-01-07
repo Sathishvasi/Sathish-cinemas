@@ -53,4 +53,4 @@ FUNCTIONALITIES:
 ![capture](https://user-images.githubusercontent.com/19771986/48598740-5ffd6200-e98a-11e8-8fda-c758e6363922.PNG)
 
 
-  
+DEMO HERE: https://sathishvasi.github.io/Sathish-cinemas/
