@@ -6,30 +6,37 @@ body {
   font-size: 16px;
   line-height: 2;
   /* color: white; */
-  background-color: black !important; }
-.t-title{
+  background-color: black !important;
+}
+
+.t-title {
   color: #4aca85;
   /* font-weight: bold; */
   margin-top: 50px;
   font-size: 40px;
 }
+
 .data-table-container {
   background: white;
   color: black;
   padding: 30px;
   margin: 50px;
   margin-top: 35px;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .dataTables_length select {
   padding: 0 !important;
-  padding-left: 10px !important; }
+  padding-left: 10px !important;
+}
 
 div#example_filter {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 .align-right {
-  float: right; }
+  float: right;
+}
 
 .add-record {
   margin-left: 20px !important;
@@ -42,32 +49,39 @@ div#example_filter {
   cursor: pointer !important;
   background: transparent;
   font-size: 16px !important;
-text-decoration: none !important;}
+  text-decoration: none !important;
+}
 
-.paginate_button active a{
+.paginate_button active a {
   background: red;
 }
 
 
 .add-all-records {
-  padding: 3px 15px !important; }
+  padding: 3px 15px !important;
+}
 
 .fill-field {
   color: red;
   font-weight: 500;
-  display: none; }
+  display: none;
+}
 
-#example input, #example select {
+#example input,
+#example select {
   font-size: 14px;
   padding: 5px 5 5px 5px;
   display: block;
   width: 100%;
   border: none;
-  background: transparent; }
+  background: transparent;
+}
 
-#example input:focus, #example select:focus {
+#example input:focus,
+#example select:focus {
   outline: none;
-  border-bottom: 1px solid #757575; }
+  border-bottom: 1px solid #757575;
+}
 
 
 
@@ -75,54 +89,100 @@ a {
   color: #4aca85;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
-  a:hover, a:active, a:focus {
-    color: #4aca85;
-    outline: none;
-    text-decoration: none; }
+  transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #4aca85;
+  outline: none;
+  text-decoration: none;
+}
+
 input[type="text"] {
-  height: 50px; }
+  height: 50px;
+}
 
 p {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
-h1, h2, h3, h4, h5, h6, figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
   color: white;
   font-family: "Nunito", Arial, sans-serif !important;
   font-weight: 400;
   margin: 0 0 20px 0;
-  line-height: 1.3; }
+  line-height: 1.3;
+}
 
 .modal-content {
-  color: #000 !important; }
-  .modal-content h4 {
-    color: #000 !important; }
-  .modal-content .modal-body .field-input {
-    border-radius: 5px;
-    border: 1px solid #adadad;
-    height: 40px;
-    margin-bottom: 10px; }
+  color: #000 !important;
+}
+
+.modal-content h4 {
+  color: #000 !important;
+}
+
+.modal-content .modal-body .field-input {
+  border-radius: 5px;
+  border: 1px solid #adadad;
+  height: 40px;
+  margin-bottom: 10px;
+}
 
 ::-webkit-selection {
   color: #fff;
-  background: #4aca85; }
+  background: #4aca85;
+}
 
 ::-moz-selection {
   color: #fff;
-  background: #4aca85; }
+  background: #4aca85;
+}
 
 ::selection {
   color: #fff;
-  background: #4aca85; }
+  background: #4aca85;
+}
 
-.pagination >li:nth-child(2) >a{
+.pagination>li:nth-child(2)>a {
   background-color: #4aca85 !important;
 }
 
-th{
+th {
   text-align: center !important;
 }
 
-.add-record, .buttons-excel{
+.add-record,
+.buttons-excel {
   font-weight: bold !important;
+}
+
+@media(max-width: 768px) {
+  .add-record {
+    margin-left: 0px !important;
+  }
+
+  .dataTables_filter label {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .align-right {
+    float: unset !important;
+    text-align: center;
+    flex: 1;
+    display: flex;
+  }
+
+  .align-right a {
+    flex: 1;
+  }
 }
