@@ -8,7 +8,7 @@ $(document).ready(function(){
   	$(".buttons-excel > span").text("Export as Excel")
 	$(".dataTables_filter").append('<div class="add-record" type="button" data-toggle="modal" data-target="#myModal">Add New Movie</div>');
 	$(".dt-buttons").addClass("align-right");
-	$(".dt-buttons").css("margin-top","3px");
+	// $(".dt-buttons").css("margin-top","3px");
 	$(".buttons-excel").addClass("add-record");
     	$(".buttons-excel").removeClass("btn");
   	$(".buttons-excel").removeClass("btn-default");
