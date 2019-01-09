@@ -104,6 +104,14 @@ input[type="text"] {
   height: 50px;
 }
 
+.date-select{
+  border: 0px !important;
+}
+
+.date-select input{
+  height: 40px !important;
+}
+
 p {
   margin-bottom: 20px;
 }
@@ -179,7 +187,7 @@ th {
     float: unset !important;
     text-align: center;
     flex: 1;
-    display: flex;
+    display: flex !important;
   }
 
   .align-right a {

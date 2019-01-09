@@ -1,5 +1,11 @@
 $(document).ready(function(){
-  var dataTable = $('#example').DataTable({
+
+	//  $('.input-group.date').datepicker({format: "dd-mm-yyyy"}); 
+	// $('.sandbox-container').datepicker({});
+
+	$('#js-date').datepicker({ format: "dd-mm-yyyy" });
+
+  	var dataTable = $('#example').DataTable({
             		aaSorting: [[1, 'asc']],
 			dom: 'Bfrtip',
 			buttons: ["excel"]
@@ -17,7 +23,7 @@ $(document).ready(function(){
 			var f1 = $(".security").val();
 			var field1 = '<input type="text" name="data1" id="data1" value="'+f1+'" onblur="saveData(this,event)"><span style="display:none">'+f1+'</span>';
 
-			var f2 = $(".security-desc").val();
+			var f2 = $(".security-desc").val().replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "-");
 			var field2 = '<input class="find-new-row" type="text" name="data2" id="data2" value="'+f2+'" onblur="saveData(this,event)"><span style="display:none">'+f2+'</span>';
 
 			var f3 = $(".t-value").val();
