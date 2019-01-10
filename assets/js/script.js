@@ -3,7 +3,7 @@ $(document).ready(function(){
 	//  $('.input-group.date').datepicker({format: "dd-mm-yyyy"}); 
 	// $('.sandbox-container').datepicker({});
 
-	$('#js-date').datepicker({ format: "dd-mm-yyyy" });
+	$('#js-date').datepicker();
 
   	var dataTable = $('#example').DataTable({
             		aaSorting: [[1, 'asc']],
